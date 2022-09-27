@@ -1,5 +1,5 @@
 /*
-file: somma_interi.c
+file: somma_numeri_interi.c
 autore: Hubert Stefanski
 classe: 3°H
 data: 21/09/2022
