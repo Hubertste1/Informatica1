@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main()
+{
+    int t;
+
+    printf("Inserisci il valore della temperatura: ");
+    scanf("%d", &t);
+
+    if (t > 30)
+    {
+        printf("Molto caldo");
+    }
+    else
+    {
+        if (t < 30 && t > 20)
+        {
+            printf("Caldo");
+        }
+        else
+        {
+            if (t < 20 && t > 10)
+            {
+                printf("Ideale");
+            }
+            else
+            {
+                if (t < 10 && t > 0)
+                {
+                    printf("Freddo");
+                }
+            }
+        }
+    }
+
+    system("pause");
+}
