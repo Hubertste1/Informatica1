@@ -3,8 +3,8 @@
 *
 * @brief Scrivere un programma che, richiesto un numero intero, visualizzi tutti i suoi divisori.
 * 
-* @author Hubert Stefanski
-* @date 06/12/2022
+* @author <Hubert Stefanski>
+* @date <06/12/2022>
 */
 
 #include <stdio.h>		                       		 //includo i comandi 
