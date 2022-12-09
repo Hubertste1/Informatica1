@@ -5,8 +5,8 @@
 *        Un numero è primo quando ha come divisore uno e sé stesso. Quindi è primo ciascun 
 *        numero naturale maggiore di 1 che sia divisibile solamente per 1 e per sé stesso.
 * 
-* @author Hubert Stefanski
-* @date 06/12/2022
+* @author <Hubert Stefanski>
+* @date <06/12/2022>
 */
 
 #include <stdio.h>      //inclusione librerie
