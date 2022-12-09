@@ -2,7 +2,7 @@
 * \mainpage b_coppie_som_15.c
 *
 * @brief Scrivere un programma che visualizzi tutte le coppie ordinate di numeri naturali 
-*        la cui somma è 15. 
+*        la cui somma Ã¨ 15. 
 * 
 * @author Hubert Stefanski
 * @date 06/12/2022
@@ -16,7 +16,7 @@ int main()
 
 	printf("-Esercizio B Hubert Stefanski-\n");
 
-    for(a=1; a<8; a++)                                  //iterazione primo addendo - limite 8 per non ripetere le stesse somme
+    for(a=1; a<8; a++)                                  //iterazione primo addendo 
 
         for(b=1; b<15; b++)                             //iterazione secondo addendo
 
