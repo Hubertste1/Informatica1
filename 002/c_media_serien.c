@@ -5,8 +5,8 @@
 *        inseriti da tastiera. L’introduzione del valore 0 indica il termine del caricamento 
 *        dei dati.
 * 
-* @author Hubert Stefanski
-* @date 06/12/2022
+* @author <Hubert Stefanski>
+* @date <06/12/2022>
 */
 
 #include <stdio.h>      			//inclusione librerie
