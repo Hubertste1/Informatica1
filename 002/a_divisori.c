@@ -7,7 +7,7 @@
 * @date 06/12/2022
 */
 
-#include <stdio.h>		                        //includo i comandi 
+#include <stdio.h>		                       		 //includo i comandi 
 
 int main() 
 {
@@ -15,12 +15,12 @@ int main()
 	
 	int n, a;			                        //dichiaro le variabili
 	
-	printf("Inserisci un numero: ");	        //richiesta input del numero
+	printf("Inserisci un numero: ");	        	//richiesta input del numero
 	scanf("%d", &n);
 	
-	for(a = 2; i < n; a++)		                //itero tutti gli interi da 2 al numero inserito
+	for(a = 2; i < n; a++)		                
 	{
-		if(n%a==0)								//controllo se l'indice e' un divisore
+		if(n%a==0)					//controllo se l'indice e' un divisore
 			printf("%d e' un divisore\n", i);		
 	}	
 }
