@@ -4,8 +4,8 @@
 * @brief Scrivere un programma che visualizzi tutte le coppie ordinate di numeri naturali 
 *        la cui somma è 15. 
 * 
-* @author Hubert Stefanski
-* @date 06/12/2022
+* @author <Hubert Stefanski>
+* @date <06/12/2022>
 */
 
 #include <stdio.h>                                      //inclusione librerie
