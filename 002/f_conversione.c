@@ -2,13 +2,13 @@
 * \mainpage f_conversione.c
 *
 * @brief Scrivere un programma che converte un numero binario a 8 bit in un numero decimale. 
-*        L’utente inserisce le cifre del numero binario un bit alla volta, partendo dal bit 
-*        più significativo. Il programma dovrà visualizzare il numero decimale corrispondente. 
+*        Lâ€™utente inserisce le cifre del numero binario un bit alla volta, partendo dal bit 
+*        piÃ¹ significativo. Il programma dovrÃ  visualizzare il numero decimale corrispondente. 
 *        Suggerimento: per calcolare le potenze di 2 utilizzare la funzione pow includendo la 
 *        libreria math.h.
 * 
-* @author Hubert Stefanski
-* @date 06/12/2022
+* @author <Hubert Stefanski>
+* @date <06/12/2022>
 */
 
 //inclusione librerie
