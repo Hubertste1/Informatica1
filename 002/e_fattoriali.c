@@ -5,8 +5,8 @@
 *        tastiera. Si ricordi che il fattoriale di un numero n (simbolo n!) viene calcolato 
 *        con la seguente formula: n! = n ·(n–1)·(n–2)· ... ·2 ·1.
 * 
-* @author Hubert Stefanski
-* @date 06/12/2022
+* @author <Hubert Stefanski>
+* @date <06/12/2022>
 */
 
 #include <stdio.h>                              	 //inclusione librerie
