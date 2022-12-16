@@ -18,7 +18,7 @@ int main()
 	printf("Inserisci un numero: ");	        	//richiesta input del numero
 	scanf("%d", &n);
 	
-	for(a = 2; i < n; a++)		                
+	for(a = 2; a < n; a++)		                
 	{
 		if(n%a==0)					//controllo se l'indice e' un divisore
 			printf("%d e' un divisore\n", i);		
