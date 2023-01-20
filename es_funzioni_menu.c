@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
+#include <stdlib.h>
 //prende in input la base e l'altezza di un rettangolo e restituisce l'area
 int area_rettangolo(int,int);
 //prende in input due numeri interi e restituisce il loro massimo comune divisore
@@ -32,7 +33,7 @@ int main()
 					
 			case 2:
 					printf("inserire un numero \n");
-					scan	f("%d",&num1);
+					scanf("%d",&num1);
 					printf("inserire un numero \n");
 					scanf("%d",&num2);
 					r=MCD(num1,num2);
@@ -47,10 +48,11 @@ int main()
 	   				break;
 	   		
 			default:
-					printf("il numero inserito non e' valido");
+					printf("il numero inserito non e' valido\n");
 		}
-		
+	system("pause");	
 	}
+
 	while(r!=0);
 }
 
@@ -58,10 +60,12 @@ int menu()
 {
 	int risp;
 	
-	printf("Inserire 1 se vuoi sapere l'area di un rettangolo \n");
-	printf("Inserire 2 per trovare il massimo comune divisore di due numeri \n");
-	printf("Inserisci 3 se vuoi sapere la somma dei divisori di un numero\n");
-	printf("Inserisci 0 se vuoi chiudere il programma\n");
+	system ("cls");
+	
+	printf("Digita 1 se vuoi sapere l'area di un rettangolo \n\n");
+	printf("Digita 2 per trovare il massimo comune divisore di due numeri \n\n");
+	printf("Digita 3 se vuoi sapere la somma dei divisori di un numero\n\n");
+	printf("Digita 0 se vuoi chiudere il programma\n\n");
 	
 	scanf("%d",&risp);
 	return risp;
