@@ -12,13 +12,41 @@
 #include <stdio.h>
 #include <limits.h>
 #include <stdlib.h>
-//prende in input la base e l'altezza di un rettangolo e restituisce l'area
+
+/*
+* @brief prende in input la base e l'altezza di un rettangolo e restituisce l'area
+* @param  altezza e base
+* @retval area
+* @see <See Also: Describes a cross-reference to classes, functions, methods, variables, ...>
+* @version 1.0 20/01/2022 prima versione
+*/
 int area_rettangolo(int,int);
-//prende in input due numeri interi e restituisce il loro massimo comune divisore
+
+/*
+* @brief prende in input due numeri interi e restituisce il loro massimo comune divisore
+* @param  due numeri
+* @retval mcd
+* @see <See Also: Describes a cross-reference to classes, functions, methods, variables, ...>
+* @version 1.0 20/01/2022 prima versione
+*/
 int MCD(int x, int y);
-//prende in input un numero intero e restituisce la somma dei suoi divisori
+
+/*
+* @brief prende in input un numero intero e restituisce la somma dei suoi divisori
+* @param  due numeri
+* @retval somma dei divisori
+* @see <See Also: Describes a cross-reference to classes, functions, methods, variables, ...>
+* @version 1.0 20/01/2022 prima versione
+*/
 int somma_divisori(int x);
-//mostra all'utente tutte le possibili funzioni che può utilizzare
+
+/*
+* @brief mostra all'utente tutte le possibili funzioni che può utilizzare
+* @param  nessun parametro
+* @retval scelta effetuata dall'utente
+* @see <See Also: Describes a cross-reference to classes, functions, methods, variables, ...>
+* @version 1.0 20/01/2022 prima versione
+*/
 int menu();
 
 int main()
